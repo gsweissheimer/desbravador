@@ -7,10 +7,10 @@ The project is an ASP.NET Core application that allows for the management of con
 ## Environment Setup
 Make sure you have the following requirements installed on your machine:
 
-- Node.js (v14.x or higher)
+- Node.js (v21.x or higher)
 - npm (usually installed along with Node.js)
-- .NET SDK (v5.x or higher)
-- A PostgreSQL database (v12.x or higher)
+- .NET SDK (v8.x or higher)
+- A PostgreSQL database (v14.x or higher)
 - How to Start the .NET API
 
 ### Clone the repository
@@ -33,7 +33,7 @@ Make sure you have the following requirements installed on your machine:
 ## How to Start the React Application
 
 ### Navigate to the React application directory
-`cd react-app-directory-name`
+`cd atlas-projects`
 
 ### Install project dependencies
 `npm install`
