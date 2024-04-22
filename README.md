@@ -13,19 +13,35 @@ Make sure you have the following requirements installed on your machine:
 - A PostgreSQL database (v12.x or higher)
 - How to Start the .NET API
 
-## Clone the repository
+### Clone the repository
 `git clone https://github.com/gsweissheimer/desbravador.git`
 
 ## Navigate to the API directory
 `cd v1`
 
-## Install project dependencies:
+### Install project dependencies:
 `dotnet restore`
 
-## Run database migrations to create the necessary tables:
+### Run database migrations to create the necessary tables:
 `dotnet ef database update`
 
-## Start the API:
+### Start the API:
 `dotnet run`
 
-### The API will be available at http://localhost:5130.
+##### The API will be available at http://localhost:5130.
+
+## How to Start the React Application
+
+### Navigate to the React application directory
+`cd react-app-directory-name`
+
+### Install project dependencies
+`npm install`
+
+### Start the React application
+`npm start`
+
+##### The application will be available at http://localhost:3000.
+
+
+
